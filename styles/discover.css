@@ -1,0 +1,90 @@
+.discover {
+    padding: 168px 0px;
+}
+
+.discover-title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+    color: rgba(25, 25, 28, 1);
+    width: 600px;
+}
+
+.discover-btn {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(25, 25, 28, 1);
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 16px;
+    transition: all 0.2s ease;
+}
+
+.discover-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.discover-btn:hover::after {
+    background-color: rgba(25, 25, 28, 1);
+}
+
+.discover-btn:hover {
+    font-weight: 700;
+}
+
+.discover-list {
+    display: flex;
+    gap: 48px;
+    padding: 3px 0px;
+}
+
+.discover-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.discover-card-title {
+    margin-top: 28px;
+    margin-bottom: 11px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(25, 25, 28, 1);
+}
+
+.discover-card-date {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(109, 109, 119, 1);
+}
+
+.discover__text-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+
+.discover__link-more {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: rgba(25, 25, 28, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    text-decoration: none;
+
+}

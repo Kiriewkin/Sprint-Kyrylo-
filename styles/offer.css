@@ -1,0 +1,122 @@
+.offer {
+    background-color: rgba(239, 239, 242, 1);
+    background-image: url(../images/gradient.png);
+    background-repeat: no-repeat;
+    padding-top: 186px;
+}
+
+.offer__title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+    color: rgba(25, 25, 28, 1);
+    margin-bottom: 18px;
+}
+
+.offer__discription {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(25, 25, 28, 1);
+    margin-bottom: 62px;
+}
+
+.offer__discription span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: rgba(80, 77, 238, 1);
+}
+
+.offer__btn {
+    color: rgba(251, 251, 252, 1);
+    background: rgba(80, 77, 238, 1);
+    width: 223px;
+    height: 54px;
+    margin-bottom: 110px;
+}
+
+.offer__discount {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+    color: rgba(25, 25, 28, 1);
+    margin-bottom: 8px;
+}
+
+.offer__time {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: rgba(25, 25, 28, 1);
+}
+
+.offer__container {
+    background-image: url(../images/man-main.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+    position: relative;
+}
+
+.offer__text {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    padding-bottom: 216px;
+}
+
+.offer__item {
+    border: 2px solid rgba(25, 25, 28, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: rgba(25, 25, 28, 1);
+    height: 54px;
+
+}
+
+.offer__marketer {
+    position: absolute;
+    top: 0px;
+    right: 122px;
+    width: 151px;
+}
+
+.offer__illustrator {
+    position: absolute;
+    top: -100px;
+    right: 344px;
+    width: 157px;
+}
+
+.offer__animator {
+    position: absolute;
+    top: 0;
+    right: 583px;
+    width: 152px;
+}
+
+.offer__programmer {
+    position: absolute;
+    top: 147px;
+    right: 691px;
+    width: 180px;
+}
+
+.offer__designer {
+    position: absolute;
+    top: 310px;
+    right: 840px;
+    width: 151px;
+}
+
+.offer__photographer {
+    position: absolute;
+    top: 465px;
+    right: 709px;
+    width: 192px;
+}
