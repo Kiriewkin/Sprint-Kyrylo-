@@ -61,6 +61,7 @@ header {
     justify-content: center;
     border: none;
     font-family: 'Inter';
+    border-radius: 8px;
 }
 
 .header__button {
