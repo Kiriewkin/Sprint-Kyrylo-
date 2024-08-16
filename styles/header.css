@@ -30,6 +30,17 @@ header {
 .nav__link {
     text-decoration: none;
     color: rgba(25, 25, 28, 1);
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav__link:hover {
+    transform: scale(1.1);
+    color: rgba(0, 123, 255, 1);
+}
+
+.nav__link:focus {
+    outline: 2px solid rgba(0, 123, 255, 1);
+    outline-offset: 2px; 
 }
 
 .header__login {
@@ -62,11 +73,23 @@ header {
     border: none;
     font-family: 'Inter';
     border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.button:hover {
+    transform: scale(1.1);
+    background-color: rgba(30, 30, 33, 1);
+}
+
+.button:active {
+    transform: scale(0.95);
+    background-color: rgba(20, 20, 22, 1);
+}
+
+
 .header__button {
-    width:153px;
-    height:46px;
+    width: 153px;
+    height: 46px;
 }
 
 .header__link {
@@ -75,9 +98,21 @@ header {
     line-height: 21.78px;
     color: rgba(25, 25, 28, 1);
     text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .button__language {
     border: none;
     background: none;
+    cursor: pointer;
+}
+
+.header__link:hover {
+    transform: scale(1.1);
+    color: rgba(0, 123, 255, 1);
+}
+
+.header__link:focus {
+    outline: 2px solid rgba(0, 123, 255, 1);
+    outline-offset: 2px; 
 }

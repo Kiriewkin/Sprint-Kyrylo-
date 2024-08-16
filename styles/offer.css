@@ -76,6 +76,11 @@
     line-height: 21.78px;
     color: rgba(25, 25, 28, 1);
     height: 54px;
+    transition: 0.2s;
+}
+
+.offer__item:hover {
+    transform: scale(1.1);
 
 }
 

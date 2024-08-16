@@ -25,6 +25,15 @@
     color: rgba(251, 251, 252, 1);
     text-decoration: none;
     margin-bottom: 28px;
+    transition: 0.3s;
+}
+
+.footer__contacts-link:hover {
+    transform: scale(1.05);
+}
+
+.footer__contacts-link:active {
+    transform: scale(0.95);
 }
 
 .footer__contacts-link:last-child {
@@ -52,6 +61,16 @@
     color: rgba(239, 239, 242, 1);
     text-decoration: none;
     margin-bottom: 12px;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+.sitemape__item:hover {
+    transform: scale(1.05);
+}
+
+.sitemape__item:active {
+    transform: scale(0.95);
 }
 
 .copyright {
